@@ -5,7 +5,7 @@
 <div class="bg-white lg:bg-gray-50 pb-2 fixed bottom-0 lg:relative lg:h-screen  w-full lg:w-72 content-center ">
     <div class="lg:mt-16 lg:w-[232px] lg:pl-3  lg:fixed lg:left-0 lg:top-0 text-sm content-center lg:content-start text-left justify-between">
         <div class="list-reset flex justify-between flex-row lg:flex-col pt-3 lg:pt-4 lg:py-3 px-2 lg:px-2 text-center lg:text-left text-gray-600">
-            <a class="relative lg:px-4 lg:py-3 lg:hover:bg-pink-200 rounded-full @if ($path == "home") lg:bg-pink-200  @endif" href="/home" >
+            <a class="relative lg:px-4 lg:py-3 lg:hover:bg-pink-200 rounded-full @if ($path == "home") lg:bg-pink-200  @endif" href="{{route('home')}}" >
                 <div class="lg:inline-flex items-center w-full font-semibold transition-colors duration-150 ">
                     
                     <div class="flex justify-center">
